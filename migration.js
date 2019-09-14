@@ -10,7 +10,7 @@ db.serialize(function() {
   '`is_current_employee` INTEGER NOT NULL DEFAULT 1, ' +
   'PRIMARY KEY(`id`) )');
   db.run('CREATE TABLE IF NOT EXISTS `Timesheet` ( ' +
-  '`id` INTEGER NOT NULL, ' +
+  '`id` INTEGER NOT NULL,' +
   '`hours` INTEGER NOT NULL,' +
   '`rate` INTEGER NOT NULL,' +
   '`date` INTEGER NOT NULL,' +
